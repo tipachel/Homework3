@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         if userNameTF.text == "" && passwordTF.text == ""{
             showAlert(title: "Acces denied", message:"Fill the fields ")
         }else if userNameTF.text != login || passwordTF.text != password {
-            showAlert(title: "Accec denied", message: "User name of password is incorrect!")
+            showAlert(title: "Accec denied", message: "User name or password is incorrect!")
             
         }
     }
